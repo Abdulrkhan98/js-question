@@ -10,3 +10,6 @@ function generateRandomNumber() {
 }
 
 console.log("Random Number:", generateRandomNumber());
+
+// 2nd method 
+// console.log(Math.floor(Math.random() * 100));
