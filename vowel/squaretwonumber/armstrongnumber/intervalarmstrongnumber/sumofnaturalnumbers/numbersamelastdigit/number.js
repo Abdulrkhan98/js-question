@@ -7,6 +7,7 @@ function checkLastDigit(a, b, c) {
   } else {
     console.log("Different Last Digit");
   }
+  return checkLastDigit;
 
 }
 
