@@ -1,5 +1,5 @@
 // JavaScript Program to Clone a JS Object.
-// 1st Method → Manual Copy
+// 1st Method  Manual Copy
 
 let person = {
     name: "abdul",
@@ -13,7 +13,8 @@ let copy = {
 
 console.log(copy);
 
-// 2nd Method → Spread Operator
+// 2nd Method 
+//  Spread Operator
 
 let person = {
     name: "abdul",
