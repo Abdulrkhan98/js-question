@@ -21,13 +21,23 @@
 
 // 3rd and best Method 
 
-function replaceString(str, oldWord, newWord) {
-  return str.replaceAll(oldWord, newWord);
-}
+// function replaceString(str, oldWord, newWord) {
+//   return str.replaceAll(oldWord, newWord);
+// }
 
-console.log(
-  replaceString(
-    "I like JavaScript. JavaScript is awesome.",
-    "JavaScript", "JS"
-  )
-);
+// console.log(
+//   replaceString(
+//     "I like JavaScript. JavaScript is awesome.",
+//     "JavaScript", "JS"
+//   )
+// );
+
+
+function reverseChar(str){
+    let store = "";
+    for (let i = str.length-1; i >=0 ; i--){
+     store += str[i];
+    }
+    return store;
+}
+console.log(reverseChar("abdul"));

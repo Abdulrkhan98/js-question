@@ -11,3 +11,4 @@ function otpGenerate(num) {
 }
 
 console.log(otpGenerate(6));
+
